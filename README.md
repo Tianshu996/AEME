@@ -13,4 +13,4 @@ You need to install following softwares:
 0. Training the model
 
 ## Details
-More details will be pubished after this work is accepted.
+More details will be published after this work is accepted.
