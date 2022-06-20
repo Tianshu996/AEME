@@ -1,5 +1,5 @@
 # AEME
-This is a anonymous demo for MICCAI 2022 *An **adaptive** network with **extragradient** for diffusion MRI-based **microstructure estimation*** (AEME)
+This is a anonymous demo for MICCAI 2022 *An **adaptive** network with **extragradient** for diffusion MRI-based **microstructure estimation*** (AEME). There's a need to clean the code and wait for permission. If you have any questions, please feel free to contact us via zhengtianshu@zju.edu.cn
 ## Dependencies
 At least one NVIDIA GPU is needed, which supporting CUDA 11.2.
 You need to install following softwares:
