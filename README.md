@@ -4,7 +4,19 @@
 
 - [ ] AEME+ Pretrained model
 - [ ] AEME+ Finetune code
-      
+
+## Milestone
+- The original MICCAI paper AEME was accepted for MICCAI 2022.
+
+- The vanilla version won the best performance in the MICCAI-Quad22 challenge among end-to-end networks (Signal to Metrics).
+
+## Introduction
+<p align="center">
+   <img src="./figure/Fig1.jpg" align="center" width="700">
+</p>
+<p align="center"> Fig.1 The overall structure of two fitting methods. <p align="center">
+
+This repository provides a demonstration of a space acceleration network for the dMRI model, AEME/AEME+. This universal network is not restricted to specific models. You can further train the model on your own dataset. The project was originally developed for our previous work, AEME/AEME+, and can be used directly or fine-tuned with your dataset.
 
 ## Requirements
 
