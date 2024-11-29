@@ -12,7 +12,7 @@
 
 ## Introduction
 <p align="center">
-   <img src="./figure/Fig1.jpg" align="center" width="700">
+   <img src="./figure/Fig1.png" align="center" width="700">
 </p>
 <p align="center"> Fig.1 The overall structure of two fitting methods. <p align="center">
 
