@@ -2,13 +2,15 @@
 
 ## TODO
 
+- [x] Key Components
 - [ ] AEME+ Pretrained model
 - [ ] AEME+ Finetune code
 
 ## Milestone
-- The original MICCAI paper AEME was accepted for MICCAI 2022.
+- **[07/28/2023]** Challenge paper has been released. [NeuroImage:clinical](https://www.sciencedirect.com/science/article/pii/S2213158223001742)
+- **[09/22/2022]** The vanilla version won the best performance in the MICCAI-Quad22 challenge among end-to-end networks (Signal to Metrics).
+- **[09/15/2022]** The original MICCAI paper AEME was accepted for MICCAI 2022.
 
-- The vanilla version won the best performance in the MICCAI-Quad22 challenge among end-to-end networks (Signal to Metrics).
 
 ## Introduction
 <p align="center">
@@ -26,6 +28,13 @@ Before you can use this package for image segmentation. You should install the f
 
 ## Quick Preview
 A code snippet of the noise-tuning module is shown below. 
+
+### Adaptive Mechanism
+```python
+
+ItermNew = AdaIter(infactor=opt.infactor, patience=opt.patience, mode=opt.mode, threshold_mode=opt.threshold_mode, threshold=opt.threshold,
+                   iter_term=opt.init_iter, max_iter=opt.max_iter, verbose=True, early_stop_threshold=opt.early)
+```
 
 ### Noise-tuning
 ```python
