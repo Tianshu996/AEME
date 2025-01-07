@@ -9,7 +9,7 @@
 ## Milestone
 - **[07/28/2023]** Challenge paper has been released. [NeuroImage:clinical](https://www.sciencedirect.com/science/article/pii/S2213158223001742)
 - **[09/22/2022]** The vanilla version won the best performance in the MICCAI-Quad22 challenge among end-to-end networks (Signal to Metrics).
-- **[09/15/2022]** The original MICCAI paper AEME was accepted for MICCAI 2022.
+- **[09/15/2022]** The original MICCAI paper AEME was accepted for [MICCAI 2022](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_15) main conference.
 
 
 ## Introduction
