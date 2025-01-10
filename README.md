@@ -27,14 +27,15 @@ Before you can use this package for image segmentation. You should install the f
 - Some common python packages such as Numpy, H5py, NiBabel ...
 
 ## Quick Preview
-A code snippet of the noise-tuning module is shown below. 
-
+An example of using the Adaptive Mechanism through AdaIter is shown below.
 ### Adaptive Mechanism
 ```python
 
 ItermNew = AdaIter(infactor=opt.infactor, patience=opt.patience, mode=opt.mode, threshold_mode=opt.threshold_mode, threshold=opt.threshold,
                    iter_term=opt.init_iter, max_iter=opt.max_iter, verbose=True, early_stop_threshold=opt.early)
 ```
+
+A code snippet of the noise-tuning module is shown below. 
 
 ### Noise-tuning
 ```python
@@ -55,6 +56,10 @@ def noiseadd(model, noise_lambda):
         # Add noise to parameters
         para.data.add_(noise)
 ```
+
+## Pretrained models
+
+We offered a pretrained model through [Google drive](https://drive.google.com/file/d/19jRt9vjwGoC5Yks6Tr5h3kYNTSQErnTX/view?usp=sharing) and more of the usage is coming soon.
 
 ## Citation
 
