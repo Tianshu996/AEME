@@ -3,7 +3,7 @@
 ## TODO
 
 - [x] Key Components
-- [ ] AEME+ Pretrained model
+- [x] AEME+ Pretrained model
 - [ ] AEME+ Finetune code
 
 ## Milestone
